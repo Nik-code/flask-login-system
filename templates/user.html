@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href='/static/styles.css' />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>User Details</title>
+</head>
+<body>
+	<h2>Your Details:</h2>
+	<div class="details">
+		<p>
+			<span class="label">Username:</span>
+			<span class="value">{{ user_data[1] }}</span>
+		</p>
+        <p>
+            <span class="label">Password:</span>
+            <span class="value">{{ user_data[2] }}</span>
+        </p>
+		<p>
+			<span class="label">Full Name:</span>
+			<span class="value">{{ user_data[3] }}</span>
+		</p>
+		<p>
+			<span class="label">Email:</span>
+			<span class="value">{{ user_data[4] }}</span>
+		</p>
+		<p>
+			<span class="label">Phone:</span>
+			<span class="value">{{ user_data[5] }}</span>
+		</p>
+		<p>
+			<span class="label">Score:</span>
+			<span class="value">{{ user_data[6] }}</span>
+		</p>
+	</div>
+</body>
+</html>

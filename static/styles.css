@@ -1,0 +1,94 @@
+/* styles.css */
+
+body {
+  background-color: #ffffff;
+}
+
+/* home.html */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.signupbtn,
+.loginbtn {
+  background-color: #EB9C5C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.signupbtn:hover,
+.loginbtn:hover {
+  background-color: #9a663c;
+}
+
+/* login-styles.css and signup-styles.css */
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #EB9C5C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #9a663c;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+
+.details {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.label {
+	font-weight: bold;
+}
+
+.value {
+	margin-left: 10px;
+}
+
+
